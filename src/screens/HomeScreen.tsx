@@ -5,8 +5,6 @@ import axios from "axios"
 
 const url = "https://pokeapi.co/api/v2/pokemon?limit=20"
 
-
-
 export const HomeScreen = () =>{
 
     const [pokeList,setPokeList] = useState([])
